@@ -5,8 +5,7 @@
   "name": "Default Welcome Intent - conversation",
   "auto": true,
   "contexts": [
-    "DefaultWelcomeIntent-followup",
-    "meeting-choice"
+    "DefaultWelcomeIntent-followup"
   ],
   "responses": [
     {
@@ -84,7 +83,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1529237275,
+  "lastUpdate": 1529240279,
   "fallbackIntent": false,
   "events": []
 }

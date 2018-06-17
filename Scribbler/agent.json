@@ -13,7 +13,10 @@
     "welcomeIntentSignInRequired": true,
     "startIntents": [],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "3fd18437-cf60-4286-8518-986782244d8c",
+      "a96d6d1e-e0e7-4080-8047-f797906a31f2"
+    ],
     "oAuthLinking": {
       "required": false,
       "grantType": "AUTH_CODE_GRANT"

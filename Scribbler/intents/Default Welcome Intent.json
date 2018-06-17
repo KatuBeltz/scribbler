@@ -9,11 +9,6 @@
       "action": "input.welcome",
       "affectedContexts": [
         {
-          "name": "meeting-choice",
-          "parameters": {},
-          "lifespan": 5
-        },
-        {
           "name": "DefaultWelcomeIntent-followup",
           "parameters": {},
           "lifespan": 2
@@ -57,7 +52,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1529236593,
+  "lastUpdate": 1529240258,
   "fallbackIntent": false,
   "events": [
     {

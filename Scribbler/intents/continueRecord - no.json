@@ -1,11 +1,8 @@
 {
   "id": "a96d6d1e-e0e7-4080-8047-f797906a31f2",
-  "parentId": "2f6b6aa5-bb22-47f0-bc34-5afdca96b7da",
-  "rootParentId": "2f6b6aa5-bb22-47f0-bc34-5afdca96b7da",
   "name": "continueRecord - no",
   "auto": true,
   "contexts": [
-    "continueRecord-followup",
     "recording",
     "startRecording"
   ],
@@ -28,10 +25,10 @@
       "parameters": [
         {
           "id": "5826d6f2-893e-45ea-bad6-111c0ab7e6d4",
-          "required": true,
+          "required": false,
           "dataType": "@sys.any",
           "name": "read",
-          "value": "#continueRecord-followup.text",
+          "value": "#startRecording.text2",
           "isList": false
         },
         {
@@ -109,7 +106,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1529224773,
+  "lastUpdate": 1529245689,
   "fallbackIntent": false,
   "events": []
 }

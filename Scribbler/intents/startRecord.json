@@ -20,8 +20,8 @@
           "id": "f7c63ec4-ac0c-4531-9237-662634e576c8",
           "required": false,
           "dataType": "@sys.any",
-          "name": "text",
-          "value": "$text",
+          "name": "text1",
+          "value": "$text1",
           "isList": false
         }
       ],
@@ -43,7 +43,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1529238034,
+  "lastUpdate": 1529239772,
   "fallbackIntent": false,
   "events": []
 }

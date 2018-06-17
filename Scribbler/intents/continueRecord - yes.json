@@ -1,11 +1,8 @@
 {
   "id": "bac890de-8e0b-46dd-bb38-0bcbc75591ea",
-  "parentId": "2f6b6aa5-bb22-47f0-bc34-5afdca96b7da",
-  "rootParentId": "2f6b6aa5-bb22-47f0-bc34-5afdca96b7da",
   "name": "continueRecord - yes",
   "auto": true,
   "contexts": [
-    "continueRecord-followup",
     "recording",
     "startRecording"
   ],
@@ -18,14 +15,21 @@
           "name": "startRecording",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "recording",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
           "id": "c20bbb56-35c6-4982-b07c-0d494f90ebb6",
+          "required": false,
           "dataType": "@sys.any",
           "name": "text",
-          "value": "#startRecording.text"
+          "value": "#startRecording.text2",
+          "isList": false
         }
       ],
       "messages": [
@@ -44,9 +48,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1529237735,
+  "lastUpdate": 1529240165,
   "fallbackIntent": false,
   "events": []
 }

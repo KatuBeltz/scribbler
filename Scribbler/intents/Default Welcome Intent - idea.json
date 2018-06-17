@@ -5,8 +5,7 @@
   "name": "Default Welcome Intent - idea",
   "auto": true,
   "contexts": [
-    "DefaultWelcomeIntent-followup",
-    "meeting-choice"
+    "DefaultWelcomeIntent-followup"
   ],
   "responses": [
     {
@@ -67,7 +66,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1529237934,
+  "lastUpdate": 1529240286,
   "fallbackIntent": false,
   "events": []
 }

@@ -21,7 +21,9 @@ var config = {
 };
 
 firebase.initializeApp(config);
+//firebase.firestore.setLogLevel("debug");
 var db = firebase.firestore();
+
 
 
 
@@ -83,19 +85,60 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
    //const userID = CLIENT_ID;
    //agent.add(userID);
 
-   //var docRef = db.collection('users').doc('alovelace');
-   var docRef = db.collection('users').doc(conv.user.id).collection(conversation_class).doc(conv.request.conversation.conversationId);
-   var setAda = docRef.set({
-     conversation_given_name: conversation_given_name,
-     conversation_last_name: conversation_last_name,
-     conversation_location: conversation_location,
-     conversation_time_period: conversation_time_period,
-     conversation_date: conversation_date,
-     text: text,
-     initial_text: originalText
-   });
+   let user_id = conv.user.id;
+   let conv_id = conv.request.conversation.conversationId;
 
-   //agent.add("We stored your notes in the database");
+   console.log('user id: ', user_id);
+   console.log('conv id: ', conv_id);
+
+   console.log("Adding a new note... (old school) ");
+   var docRef = db.collection('users').doc(user_id).collection(conversation_class).doc(conv_id);
+   var setNote = docRef.set({
+               conversation_given_name: conversation_given_name,
+               conversation_last_name: conversation_last_name,
+               conversation_location: conversation_location,
+               conversation_time_period: conversation_time_period,
+               conversation_date: conversation_date,
+               text: text,
+               initial_text: originalText});
+
+   //var docRef = db.collection('users').doc('alovelace');
+   /*let user_id = conv.user.id;
+   let conv_id = conv.request.conversation.conversationId;
+   console.log('user id: ', user_id);
+   console.log('conv id: ', conv_id);
+   var docRef = db.collection('users').doc(user_id).collection(conversation_class).doc(conv_id);
+   //var docRef = db.collection('users').doc(conv.user.id).collection(conversation_class).doc(conv.user.id);
+   var getDoc = docRef.get()
+       .then(doc => {
+         if (!doc.exists) {
+           console.log("Adding a new note... ");
+           var setNote = docRef.set({
+               conversation_given_name: conversation_given_name,
+               conversation_last_name: conversation_last_name,
+               conversation_location: conversation_location,
+               conversation_time_period: conversation_time_period,
+               conversation_date: conversation_date,
+               text: text,
+               initial_text: originalText});
+           console.log("conversation_date ", conversation_date);
+           console.log("conversation_given_name ", conversation_given_name);
+           console.log("conversation_last_name ", conversation_last_name);
+           console.log("conversation_location ", conversation_location);
+           console.log("conversation_time_period ", conversation_time_period);
+           console.log("text ", text);
+           console.log("initial_text ", originalText);
+         } else {
+           console.log("Appending data...");
+           console.log(doc.data().text);
+           getDoc.set({text: doc.data().text + ' ' + text})
+         }
+       })
+       .catch(err => {
+         console.log('Error getting document', err);
+       });*/
+
+   agent.add("Great! Everything is evaporating into the cloud.");
    console.log("User Text:");
    console.log(text);
    //agent.add(originalText);
@@ -135,7 +178,9 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
  // Run the proper function handler based on the matched Dialogflow intent name
  let intentMap = new Map();
  intentMap.set('startRecord - no', note);
+ intentMap.set('startRecord - yes', note);
  intentMap.set('continueRecord - no', note);
+ intentMap.set('continueRecord - yes', note);
  // intentMap.set('your intent name here', yourFunctionHandler);
  //intentMap.set('note_text', googleAssistantHandler);
  agent.handleRequest(intentMap);

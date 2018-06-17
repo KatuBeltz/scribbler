@@ -1,6 +1,18 @@
 [
   {
-    "id": "47319e58-566c-4105-a36f-0ce0218e0a2a",
+    "id": "34dd62ba-4328-458b-98a7-7b58faa619a9",
+    "data": [
+      {
+        "text": "chatbot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529239907
+  },
+  {
+    "id": "40f611d8-e238-4a46-8e17-8da88d78880f",
     "data": [
       {
         "text": "I attended a ",
@@ -37,7 +49,7 @@
     "updated": 1529237313
   },
   {
-    "id": "9ae8d109-43c4-48a1-862a-6c69d2d43954",
+    "id": "00d0ac7c-839b-4776-b15c-36a7ef03bb2b",
     "data": [
       {
         "text": "I was listening to a ",
@@ -78,7 +90,7 @@
     "updated": 1529237313
   },
   {
-    "id": "4d13b38e-a732-4f3d-b641-12a268a3c083",
+    "id": "1be7b77c-b42f-47fc-9bb3-d84bb9186181",
     "data": [
       {
         "text": "I was ",
@@ -109,7 +121,7 @@
     "updated": 1529237313
   },
   {
-    "id": "e2ba9743-80be-45ce-b494-42b551c0fb33",
+    "id": "b63df5a0-75be-4963-ac2c-6f0d3299af43",
     "data": [
       {
         "text": "I was at a ",
@@ -136,7 +148,7 @@
     "updated": 1529237313
   },
   {
-    "id": "cad15c07-5c2c-4311-b439-a6e1fd03bc0e",
+    "id": "6be75330-07b2-461f-b5c1-a77c00c50e6e",
     "data": [
       {
         "text": "I was listening to a ",
@@ -163,7 +175,7 @@
     "updated": 1529237313
   },
   {
-    "id": "7950798d-b9c6-4022-8456-5722f8caada7",
+    "id": "0158e9db-929c-4251-bd92-63fb595b0fa0",
     "data": [
       {
         "text": "I was at a ",
@@ -194,7 +206,7 @@
     "updated": 1529237313
   },
   {
-    "id": "9660b0cc-fd4d-43bc-af5c-e72fdfe0fe28",
+    "id": "d09df882-b778-4267-b018-32d0e5a06c98",
     "data": [
       {
         "text": "I\u0027d like to take a note about a ",
@@ -211,7 +223,7 @@
     "updated": 1529237313
   },
   {
-    "id": "c163dcda-ad25-47d2-a38d-f84d5cad533e",
+    "id": "79f8b989-e05e-4b34-a8ed-9da6b5d5c52a",
     "data": [
       {
         "text": "I\u0027m at a ",
@@ -228,7 +240,7 @@
     "updated": 1529237313
   },
   {
-    "id": "8ff56bf2-e0a3-424e-b6ea-32cfe9617061",
+    "id": "01c01287-6f53-41fb-a9e5-214a846a9d65",
     "data": [
       {
         "text": "Can you help me remember some details about a ",
@@ -249,7 +261,7 @@
     "updated": 1529237313
   },
   {
-    "id": "1639908d-364e-4d5f-b019-bf3d2f66f06d",
+    "id": "58343150-a404-450b-bd5f-c3d1cec830e7",
     "data": [
       {
         "text": "I just heard a ",
@@ -270,7 +282,7 @@
     "updated": 1529237313
   },
   {
-    "id": "970ba74b-4b34-444d-97e2-4418fcaab58d",
+    "id": "541bb7fa-9e6f-4b66-9459-e5e376e85aeb",
     "data": [
       {
         "text": "I just went to a ",
@@ -287,7 +299,7 @@
     "updated": 1529237313
   },
   {
-    "id": "0a66c0cd-7f64-41fd-940e-bc5dc7eb6f28",
+    "id": "e19d91eb-8b09-47f1-a597-d9223975a658",
     "data": [
       {
         "text": "I\u0027m attending a ",

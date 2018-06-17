@@ -27,7 +27,7 @@
           "required": false,
           "dataType": "@sys.any",
           "name": "text",
-          "value": "#startRecording.text",
+          "value": "#startRecording.text1",
           "isList": false
         }
       ],
@@ -47,9 +47,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1529238073,
+  "lastUpdate": 1529240232,
   "fallbackIntent": false,
   "events": []
 }

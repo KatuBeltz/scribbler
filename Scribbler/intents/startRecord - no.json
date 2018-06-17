@@ -30,7 +30,7 @@
           "required": true,
           "dataType": "@sys.any",
           "name": "read",
-          "value": "#startRecording.text",
+          "value": "#startRecording.text1",
           "prompts": [],
           "isList": false
         },
@@ -109,7 +109,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1529238098,
+  "lastUpdate": 1529245770,
   "fallbackIntent": false,
   "events": []
 }

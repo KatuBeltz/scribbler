@@ -16,11 +16,6 @@
           "lifespan": 10
         },
         {
-          "name": "continueRecord-followup",
-          "parameters": {},
-          "lifespan": 2
-        },
-        {
           "name": "startRecording",
           "parameters": {},
           "lifespan": 5
@@ -31,7 +26,8 @@
           "id": "09614da3-0b18-49d7-b9c0-f02a8b7f149c",
           "required": false,
           "dataType": "@sys.any",
-          "name": "text",
+          "name": "text2",
+          "value": "$text",
           "isList": false
         }
       ],
@@ -53,7 +49,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1529223238,
+  "lastUpdate": 1529239748,
   "fallbackIntent": false,
   "events": []
 }
