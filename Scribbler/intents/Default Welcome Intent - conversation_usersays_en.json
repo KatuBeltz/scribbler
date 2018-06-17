@@ -1,0 +1,237 @@
+[
+  {
+    "id": "0c84cab2-5b6e-45b9-b262-bae9119d1bd8",
+    "data": [
+      {
+        "text": "I was ",
+        "userDefined": false
+      },
+      {
+        "text": "speaking",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " with Mr. ",
+        "userDefined": false
+      },
+      {
+        "text": "Smith",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529235922
+  },
+  {
+    "id": "c40e2d21-7d90-49a9-b404-69ca5166d6b6",
+    "data": [
+      {
+        "text": "I was ",
+        "userDefined": false
+      },
+      {
+        "text": "talking",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "John",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      },
+      {
+        "text": " earlier ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529235922
+  },
+  {
+    "id": "9a90782f-8241-4d32-8429-144f9fdde2d5",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "spoke",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " with an investor ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529235922
+  },
+  {
+    "id": "f463185e-5a1e-4d9d-b73c-31a61d940ec8",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "talked",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to my boss.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529235922
+  },
+  {
+    "id": "577525b4-4fb8-4898-94d7-c8198317e0d2",
+    "data": [
+      {
+        "text": "I was ",
+        "userDefined": false
+      },
+      {
+        "text": "calling",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " my friend ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529235922
+  },
+  {
+    "id": "b3fe7daf-d35e-49e1-81bf-d9a5e090c61f",
+    "data": [
+      {
+        "text": "I was discussing my work with my boss earlier ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529235922
+  },
+  {
+    "id": "d5ec25a8-7093-455c-a3e7-8873185aefaa",
+    "data": [
+      {
+        "text": "My coworker and I were ",
+        "userDefined": false
+      },
+      {
+        "text": "talking",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529235922
+  },
+  {
+    "id": "1e230e8a-61ac-42f6-a5c5-d361995b61d7",
+    "data": [
+      {
+        "text": "I was ",
+        "userDefined": false
+      },
+      {
+        "text": "talking",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to somebody ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529235922
+  }
+]

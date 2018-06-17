@@ -1,0 +1,149 @@
+[
+  {
+    "id": "ef91939b-c0b0-4d9d-8ad8-1a7fe73e6aa6",
+    "data": [
+      {
+        "text": "I had an ",
+        "userDefined": false
+      },
+      {
+        "text": "idea",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " when flying to ",
+        "userDefined": false
+      },
+      {
+        "text": "Paris",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237248
+  },
+  {
+    "id": "d98f2b06-6eb1-4652-bf43-73cafde22bda",
+    "data": [
+      {
+        "text": "I had an ",
+        "userDefined": false
+      },
+      {
+        "text": "idea",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "this afternoon",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237248
+  },
+  {
+    "id": "2b51a8ad-fe79-46b6-a055-b9fab821c802",
+    "data": [
+      {
+        "text": "I was ",
+        "userDefined": false
+      },
+      {
+        "text": "brainstorming",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a new ",
+        "userDefined": false
+      },
+      {
+        "text": "idea",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237248
+  },
+  {
+    "id": "2d12911e-9449-421d-ad22-12f1d34c9fea",
+    "data": [
+      {
+        "text": "I was ",
+        "userDefined": false
+      },
+      {
+        "text": "thinking",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about something.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237248
+  },
+  {
+    "id": "828e9629-5e93-4b93-90cc-fbd0340e3330",
+    "data": [
+      {
+        "text": "I had a ",
+        "userDefined": false
+      },
+      {
+        "text": "thought",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237248
+  },
+  {
+    "id": "d8bceb46-05cf-498c-9aed-9d836b200466",
+    "data": [
+      {
+        "text": "I had an ",
+        "userDefined": false
+      },
+      {
+        "text": "idea",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237248
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "id": "a96d6d1e-e0e7-4080-8047-f797906a31f2",
+  "parentId": "2f6b6aa5-bb22-47f0-bc34-5afdca96b7da",
+  "rootParentId": "2f6b6aa5-bb22-47f0-bc34-5afdca96b7da",
+  "name": "continueRecord - no",
+  "auto": true,
+  "contexts": [
+    "continueRecord-followup",
+    "recording",
+    "startRecording"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "continueRecord.continueRecord-no",
+      "affectedContexts": [
+        {
+          "name": "recording",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "startRecording",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5826d6f2-893e-45ea-bad6-111c0ab7e6d4",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "read",
+          "value": "#continueRecord-followup.text",
+          "isList": false
+        },
+        {
+          "id": "156b0a5c-371b-4bcb-b644-f85e570a67f5",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "class",
+          "value": "#startRecording.classType",
+          "isList": false
+        },
+        {
+          "id": "b65e2651-68ec-4a4d-a1aa-d5568fc60d6b",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "date",
+          "value": "#startRecording.date",
+          "isList": false
+        },
+        {
+          "id": "b4f719a4-2223-4e61-9d0b-03bc1bda3097",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "givenName",
+          "value": "#startRecording.given-name",
+          "isList": false
+        },
+        {
+          "id": "adc73a24-19cf-4e4b-9518-7da3965cd0db",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "lastName",
+          "value": "#startRecording.last-name",
+          "isList": false
+        },
+        {
+          "id": "68bbb59b-5652-4064-b9c4-3443ec0c3a25",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "location",
+          "value": "#startRecording.geo-city",
+          "isList": false
+        },
+        {
+          "id": "746f645c-609e-4038-8da6-e3ef027fd171",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "timePeriod",
+          "value": "#startRecording.time-period",
+          "isList": false
+        },
+        {
+          "id": "01d5f1bd-983a-4d43-80fe-089756ea1372",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "origText",
+          "value": "#startRecording.origText",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Great! Everything is evaporating into the cloud.",
+            "Just working on transferring everything to e papyrus!",
+            "Great! We\u0027re saving and organizing your note now!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529224773,
+  "fallbackIntent": false,
+  "events": []
+}

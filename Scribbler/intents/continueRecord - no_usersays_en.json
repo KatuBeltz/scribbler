@@ -1,0 +1,86 @@
+[
+  {
+    "id": "5a62b2b7-c43f-4132-bd0f-eb34d86264e8",
+    "data": [
+      {
+        "text": "Done",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529187687
+  },
+  {
+    "id": "e854e1b7-020d-4eaf-91c4-5b704a971eee",
+    "data": [
+      {
+        "text": "That\u0027s all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529187687
+  },
+  {
+    "id": "d17934b4-c092-442e-81cd-52fd033a6834",
+    "data": [
+      {
+        "text": "I\u0027m done",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529187687
+  },
+  {
+    "id": "4f04982c-5077-4fa2-a68c-2324e464dddf",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529187687
+  },
+  {
+    "id": "03c0b438-210f-47f5-be35-3a348dcd7e07",
+    "data": [
+      {
+        "text": "not interested",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529187687
+  },
+  {
+    "id": "387f20df-4518-4ac5-a69c-2565f1680798",
+    "data": [
+      {
+        "text": "I don\u0027t think so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529187687
+  },
+  {
+    "id": "7e590132-b79f-4d3a-bc05-af94d35f6333",
+    "data": [
+      {
+        "text": "definitely not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1529187687
+  }
+]

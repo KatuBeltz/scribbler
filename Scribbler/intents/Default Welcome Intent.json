@@ -1,0 +1,67 @@
+{
+  "id": "6ae211f3-90cf-4249-a27a-dd2cb3389c8b",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "meeting-choice",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2cc7734c-6bc5-476a-bd91-017f739dc3a9",
+          "required": true,
+          "dataType": "@classType",
+          "name": "classType",
+          "value": "$classType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Hi! I\u0027m ready with a pencil! Would you like me to remember something about an idea, a conversation, or a meeting?"
+            },
+            {
+              "lang": "en",
+              "value": "Hi! I\u0027m your personal scribe! Would you like me to record your thoughts about an idea, a conversation, or a meeting?"
+            },
+            {
+              "lang": "en",
+              "value": "Hi! I\u0027m Scribbler! What would you like me to remember - a thought, a conversation, or a meeting?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Tell me more about your $classType."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529236593,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

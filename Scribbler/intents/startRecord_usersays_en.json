@@ -1,0 +1,16 @@
+[
+  {
+    "id": "341abfcb-86b7-4713-b822-5212f8dbaa78",
+    "data": [
+      {
+        "text": "chatbot",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529223010
+  }
+]

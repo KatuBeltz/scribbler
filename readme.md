@@ -1,0 +1,1 @@
+To set up the project use Scribbler.zip to import in Dialogflow. and add index.js and package.json from the 'fulfilment' folder to the fulfillment element in Dialogflow.

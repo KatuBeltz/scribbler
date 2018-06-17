@@ -1,0 +1,115 @@
+{
+  "id": "3fd18437-cf60-4286-8518-986782244d8c",
+  "name": "startRecord - no",
+  "auto": true,
+  "contexts": [
+    "startRecording"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "startRecord.startRecord-no",
+      "affectedContexts": [
+        {
+          "name": "startRecording",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7affafdf-ddc2-45af-8756-5c15541f7a78",
+          "required": false,
+          "dataType": "@endPhrase",
+          "name": "endPhrase",
+          "value": "$endPhrase",
+          "isList": false
+        },
+        {
+          "id": "9c0d2c22-a8e4-4879-bcfd-3ab9f8341f1b",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "read",
+          "value": "#startRecording.text",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "f6509e0c-c4a8-4706-8fac-7b56ed14ecd3",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "class",
+          "value": "#startRecording.classType",
+          "isList": false
+        },
+        {
+          "id": "5f2baa7b-e11f-44ef-b41b-c22d9f192cae",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "date",
+          "value": "#startRecording.date",
+          "isList": false
+        },
+        {
+          "id": "51b72f72-a04c-40d5-a980-c401ef5f4aba",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "givenName",
+          "value": "#startRecording.given-name",
+          "isList": false
+        },
+        {
+          "id": "85883110-30d0-48ce-b31d-7e9cab9cf05a",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "lastName",
+          "value": "#startRecording.last-name",
+          "isList": false
+        },
+        {
+          "id": "6abe7356-bc7f-4e52-a6c9-acea650446ef",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "location",
+          "value": "#startRecording.location",
+          "isList": false
+        },
+        {
+          "id": "5dc8715e-f37e-4a51-8add-8d175df1d1f3",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "timePeriod",
+          "value": "#startRecording.time-period",
+          "isList": false
+        },
+        {
+          "id": "9f2a2207-e6c7-485b-824a-be51b4e479db",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "origText",
+          "value": "#startRecording.origText",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Great! We\u0027re saving and organizing your note now!",
+            "Great! Everything is evaporating into the cloud.",
+            "Just working on transferring everything to e papyrus!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529238098,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "0a981379-6a2f-4ec7-87b4-978ccfd71b01",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237735
+  },
+  {
+    "id": "7d752770-ef18-437b-b303-0061d0f90d98",
+    "data": [
+      {
+        "text": "sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1529237735
+  },
+  {
+    "id": "9f010d1b-cdb4-401e-ab2a-50e67d73f7e8",
+    "data": [
+      {
+        "text": "okay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237735
+  },
+  {
+    "id": "97dcb0c5-15c4-436f-a49f-b162ba80be77",
+    "data": [
+      {
+        "text": "of course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237735
+  },
+  {
+    "id": "2386e941-0627-402e-a484-3349c2132331",
+    "data": [
+      {
+        "text": "ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237735
+  },
+  {
+    "id": "6c0901a8-4bed-4b99-aa9c-f6a3a64a690c",
+    "data": [
+      {
+        "text": "sounds good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237735
+  },
+  {
+    "id": "07f04297-3d25-4ec0-b365-955930622d0d",
+    "data": [
+      {
+        "text": "confirm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1529237735
+  },
+  {
+    "id": "c9ebbcac-eaa4-46eb-850a-5d84c1714a7e",
+    "data": [
+      {
+        "text": "that\u0027s correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237735
+  },
+  {
+    "id": "7d3566d1-6865-450a-a564-04caac38a717",
+    "data": [
+      {
+        "text": "exactly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1529237735
+  }
+]

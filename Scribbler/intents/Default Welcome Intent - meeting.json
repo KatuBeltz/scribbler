@@ -1,0 +1,120 @@
+{
+  "id": "35d10132-168f-4219-b4ed-57a42909ad16",
+  "parentId": "6ae211f3-90cf-4249-a27a-dd2cb3389c8b",
+  "rootParentId": "6ae211f3-90cf-4249-a27a-dd2cb3389c8b",
+  "name": "Default Welcome Intent - meeting",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup",
+    "meeting-choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "startRecording",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "28d0ac3d-ade9-4426-81ff-9c117a556d33",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Was the meeting today?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "6fc1630a-2e79-446c-80c2-f1e98524250c",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Was the meeting earlier today?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ea5f92c2-b2b7-41a5-ba6c-ce1d823ef057",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "location",
+          "value": "$location",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where was the meeting?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "21e77b9d-690d-412a-8198-ded173485cfb",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "id": "42fb29f2-bc1e-4c06-b06b-38c075141a4f",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        },
+        {
+          "id": "e9d60d2f-0c72-4188-a504-8eb8388611fd",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "origText",
+          "value": "$text",
+          "isList": false
+        },
+        {
+          "id": "24aa5f63-90e8-4984-97ab-af0183836614",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "classType",
+          "value": "#DefaultWelcomeIntent-followup.classType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I see you were at a $classType in $location on $date. What would you like me to know?",
+            "I see you were at a $classType on $date. I\u0027m listening. What would you like me to record?",
+            "I see you were at a $classType in $location on $date. Tell me what you thought of it.",
+            "I see you were at a $classType on $date. I\u0027m listening. Tell me more."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529237403,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "id": "47319e58-566c-4105-a36f-0ce0218e0a2a",
+    "data": [
+      {
+        "text": "I attended a ",
+        "userDefined": false
+      },
+      {
+        "text": "hackathon",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Zurich",
+        "alias": "location",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on Saturday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "9ae8d109-43c4-48a1-862a-6c69d2d43954",
+    "data": [
+      {
+        "text": "I was listening to a ",
+        "userDefined": false
+      },
+      {
+        "text": "talk",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " by ",
+        "userDefined": false
+      },
+      {
+        "text": "John",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Smith",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "4d13b38e-a732-4f3d-b641-12a268a3c083",
+    "data": [
+      {
+        "text": "I was ",
+        "userDefined": false
+      },
+      {
+        "text": "meeting",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " with some investors in ",
+        "userDefined": false
+      },
+      {
+        "text": "London",
+        "alias": "location",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "e2ba9743-80be-45ce-b494-42b551c0fb33",
+    "data": [
+      {
+        "text": "I was at a ",
+        "userDefined": false
+      },
+      {
+        "text": "meeting",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Zurich",
+        "alias": "location",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "cad15c07-5c2c-4311-b439-a6e1fd03bc0e",
+    "data": [
+      {
+        "text": "I was listening to a ",
+        "userDefined": false
+      },
+      {
+        "text": "talk",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "this afternoon",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "7950798d-b9c6-4022-8456-5722f8caada7",
+    "data": [
+      {
+        "text": "I was at a ",
+        "userDefined": false
+      },
+      {
+        "text": "meeting",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " earlier ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "9660b0cc-fd4d-43bc-af5c-e72fdfe0fe28",
+    "data": [
+      {
+        "text": "I\u0027d like to take a note about a ",
+        "userDefined": false
+      },
+      {
+        "text": "meeting",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "c163dcda-ad25-47d2-a38d-f84d5cad533e",
+    "data": [
+      {
+        "text": "I\u0027m at a ",
+        "userDefined": false
+      },
+      {
+        "text": "conference",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "8ff56bf2-e0a3-424e-b6ea-32cfe9617061",
+    "data": [
+      {
+        "text": "Can you help me remember some details about a ",
+        "userDefined": false
+      },
+      {
+        "text": "meeting",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "1639908d-364e-4d5f-b019-bf3d2f66f06d",
+    "data": [
+      {
+        "text": "I just heard a ",
+        "userDefined": false
+      },
+      {
+        "text": "talk",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "970ba74b-4b34-444d-97e2-4418fcaab58d",
+    "data": [
+      {
+        "text": "I just went to a ",
+        "userDefined": false
+      },
+      {
+        "text": "meeting",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  },
+  {
+    "id": "0a66c0cd-7f64-41fd-940e-bc5dc7eb6f28",
+    "data": [
+      {
+        "text": "I\u0027m attending a ",
+        "userDefined": false
+      },
+      {
+        "text": "meeting",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529237313
+  }
+]

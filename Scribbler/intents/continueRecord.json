@@ -1,0 +1,59 @@
+{
+  "id": "2f6b6aa5-bb22-47f0-bc34-5afdca96b7da",
+  "name": "continueRecord",
+  "auto": true,
+  "contexts": [
+    "recording",
+    "startRecording"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "recording",
+          "parameters": {},
+          "lifespan": 10
+        },
+        {
+          "name": "continueRecord-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "startRecording",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "09614da3-0b18-49d7-b9c0-f02a8b7f149c",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "text",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Would you like to continue?",
+            "I\u0027m still here, would you like to add more details?",
+            "Would you like to add more?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529223238,
+  "fallbackIntent": false,
+  "events": []
+}

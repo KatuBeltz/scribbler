@@ -1,0 +1,49 @@
+{
+  "id": "638ad0d4-29d6-4ea3-8504-c8fa701304f1",
+  "name": "startRecord",
+  "auto": true,
+  "contexts": [
+    "startRecording"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "startRecording",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f7c63ec4-ac0c-4531-9237-662634e576c8",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Would you like to continue?",
+            "I\u0027m still here... any more details to add?",
+            "Do you have more to add?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529238034,
+  "fallbackIntent": false,
+  "events": []
+}

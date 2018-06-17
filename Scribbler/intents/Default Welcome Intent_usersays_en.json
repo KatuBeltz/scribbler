@@ -1,0 +1,146 @@
+[
+  {
+    "id": "0ce93d77-8e3d-4515-b961-ed5d0aa33b43",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "meeting",
+        "alias": "classType",
+        "meta": "@classType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529236593
+  },
+  {
+    "id": "7ff84bfb-190c-44bb-af9a-6e9f64b074e3",
+    "data": [
+      {
+        "text": "An ",
+        "userDefined": false
+      },
+      {
+        "text": "idea",
+        "alias": "classType",
+        "meta": "@classType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529236415
+  },
+  {
+    "id": "f2cdcf27-9eea-4307-a792-cb466d808ac4",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "thought",
+        "alias": "classType",
+        "meta": "@classType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529236415
+  },
+  {
+    "id": "d024cc03-4472-4cb9-868c-3fdb71dd9358",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "conversation",
+        "alias": "classType",
+        "meta": "@classType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529236415
+  },
+  {
+    "id": "4e6181bd-3388-46f8-a7c2-47cf12ed2f9d",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "discussion",
+        "alias": "classType",
+        "meta": "@classType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529236415
+  },
+  {
+    "id": "039a41d2-3b85-4879-9b87-b99360be72c3",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "talk",
+        "alias": "classType",
+        "meta": "@classType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529236415
+  },
+  {
+    "id": "f4592bce-642d-4a5c-8696-e3e90e80dd58",
+    "data": [
+      {
+        "text": "An ",
+        "userDefined": false
+      },
+      {
+        "text": "event",
+        "alias": "classType",
+        "meta": "@classType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529236415
+  },
+  {
+    "id": "7657aaf6-5e8d-4b8d-89f0-c1e9225de61d",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "hackathon",
+        "alias": "classType",
+        "meta": "@classType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529236415
+  }
+]

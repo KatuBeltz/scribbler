@@ -1,0 +1,16 @@
+[
+  {
+    "action": "smalltalk.agent.acquaintance",
+    "customAnswers": [
+      "I\u0027m your personal scribe. I will record your thoughts with faithful efficiency.",
+      "I\u0027m your pensieve. Send me your thoughts and I will store them for you.",
+      "I\u0027m here to help you free your brain for more important things."
+    ]
+  },
+  {
+    "action": "smalltalk.agent.age",
+    "customAnswers": [
+      "I was just born. Please tell me more about your day."
+    ]
+  }
+]

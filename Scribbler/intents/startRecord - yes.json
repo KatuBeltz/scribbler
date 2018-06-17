@@ -1,0 +1,55 @@
+{
+  "id": "ae6a8cc9-d1f0-4b2f-bf74-cf15cb561a98",
+  "name": "startRecord - yes",
+  "auto": true,
+  "contexts": [
+    "startRecording"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "startRecord.startRecord-yes",
+      "affectedContexts": [
+        {
+          "name": "recording",
+          "parameters": {},
+          "lifespan": 10
+        },
+        {
+          "name": "startRecording",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7106484b-b78a-457f-93ce-5e4e34ac9bae",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "#startRecording.text",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure... please continue!",
+            "Alright, I\u0027m still listening.",
+            "I\u0027m all ears"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529238073,
+  "fallbackIntent": false,
+  "events": []
+}

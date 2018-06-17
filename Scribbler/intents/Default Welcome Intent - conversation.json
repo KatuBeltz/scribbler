@@ -1,0 +1,90 @@
+{
+  "id": "203d9795-f24c-4d53-af48-5e67dfdedb0a",
+  "parentId": "6ae211f3-90cf-4249-a27a-dd2cb3389c8b",
+  "rootParentId": "6ae211f3-90cf-4249-a27a-dd2cb3389c8b",
+  "name": "Default Welcome Intent - conversation",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup",
+    "meeting-choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-3",
+      "affectedContexts": [
+        {
+          "name": "startRecording",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c0532464-d148-4d6a-9724-aeb49b9402d8",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "70ffa3b1-4803-4066-bd1e-3c40eb6998bd",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who were you talking with?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1aef3899-1879-467b-a0a3-d7dd77c8169a",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        },
+        {
+          "id": "e9d2d3b5-376c-43e7-9ded-63500baa917e",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "origText",
+          "value": "$text",
+          "isList": false
+        },
+        {
+          "id": "4e353a66-e64f-41db-a96b-d07312e6a62f",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "classType",
+          "value": "#DefaultWelcomeIntent-followup.classType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "It sounds interesting. Tell me more.",
+            "What did you talk to $given-name about?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529237275,
+  "fallbackIntent": false,
+  "events": []
+}

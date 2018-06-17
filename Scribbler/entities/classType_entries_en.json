@@ -1,0 +1,50 @@
+[
+  {
+    "value": "meeting",
+    "synonyms": [
+      "meeting",
+      "talk",
+      "conference",
+      "hackathon",
+      "event",
+      "convention",
+      "seminar"
+    ]
+  },
+  {
+    "value": "idea",
+    "synonyms": [
+      "idea",
+      "thought",
+      "brainstorming",
+      "scheme",
+      "plan",
+      "concept",
+      "view",
+      "think",
+      "thinking",
+      "brainstorm"
+    ]
+  },
+  {
+    "value": "conversation",
+    "synonyms": [
+      "discussion",
+      "networking",
+      "chat",
+      "conversation",
+      "talking",
+      "discussing",
+      "discuss",
+      "network",
+      "chatting",
+      "call",
+      "calling",
+      "speaking",
+      "speak",
+      "called",
+      "chatting",
+      "chatted"
+    ]
+  }
+]

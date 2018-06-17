@@ -1,0 +1,73 @@
+{
+  "id": "245273d1-8bbf-47eb-b7aa-77655ccc2a06",
+  "parentId": "6ae211f3-90cf-4249-a27a-dd2cb3389c8b",
+  "rootParentId": "6ae211f3-90cf-4249-a27a-dd2cb3389c8b",
+  "name": "Default Welcome Intent - idea",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup",
+    "meeting-choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-2",
+      "affectedContexts": [
+        {
+          "name": "startRecording",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1e322196-bf3b-4ee4-b68d-2ce261d31859",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "isList": false
+        },
+        {
+          "id": "3728db60-957e-4c3d-a1b8-fc8a003155a1",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "isList": false
+        },
+        {
+          "id": "c872e394-e628-4d99-8d98-2364ae2f4da1",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "origText",
+          "value": "$text",
+          "isList": false
+        },
+        {
+          "id": "293f4471-3a13-4809-8452-9eedfeaa428f",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "classType",
+          "value": "#DefaultWelcomeIntent-followup.classType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sure! Sounds interesting! I\u0027d like to hear more."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529237934,
+  "fallbackIntent": false,
+  "events": []
+}
